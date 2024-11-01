@@ -1,3 +1,6 @@
+.pc{
+    color:#1E90FF;
+}
 .flex{
     display: flex;
 }
@@ -9,4 +12,23 @@
 }
 .justify-center{
     justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+.p-1{
+    padding:0.75rem;
+}
+.p-2{
+    padding: 1.5rem;
+}
+
+.ml-1{
+    margin-left: 0.9rem;
+}
+.mr-1{
+    margin-right: 0.9rem;
 }
