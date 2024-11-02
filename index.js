@@ -11,14 +11,13 @@ add_btn.addEventListener('click',function(){
     // create div
     let div = document.createElement('div')
     div.classList.add("file", "flex","column", "ml-1", "align-center","mt-1","justify-center")
-
     const title = `Title ${counter}`
     // inject the div with dynamic content
     div.innerHTML = `<a href="notes.html?title=${encodeURIComponent(title)}&id=${counter}" class="flex column align-center" style=" text-decoration: none;"><i class="fas fa-file-alt add p-2 pc"></i><h1 class="file-title" id="file-title" name="file-title">Title ${counter}</h1></a>`
     // append the created div to the parent
 
     content.append(div)
-           
+    addPageToDataBaes(title)
 })
 
 function addPageToDataBaes(title){
